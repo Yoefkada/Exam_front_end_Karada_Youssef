@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css?family=Saira:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <script>
+        tailwind.config = {
+            theme: {
+            extend: {
+                fontFamily: { 
+                    saira : ["Saira", "Arial"],
+                },
+                colors: {
+                    white40:"#E2E2E240",
+                    green:"#286F6C"
+                },
+                background_image:""
+            },
+            },
+        };
+    </script>
+</head>
+<body class="font-saira ">
+    
+    <div class="flex overflow-hidden flex-col">
+        <div
+          class="flex relative flex-col items-center px-20 py-7 w-full min-h-[1000px] max-md:px-5 max-md:max-w-full"
+        >
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/ae71c7f85ccf32774434e5fdede39749f8ddad6c08d0d93314438aade63491f3?placeholderIfAbsent=true&apiKey=f400854b370041c18ce96f7be72648db"
+            alt="Modern living room with stylish furniture"
+            class="object-cover absolute inset-0 size-full"
+          />
+          <nav
+            class="flex relative flex-wrap gap-5 justify-between w-full text-white whitespace-nowrap max-w-[1160px] max-md:max-w-full"
+            role="navigation"
+            aria-label="Main navigation"
+          >
+            <div class="text-4xl font-bold">FurniShop</div>
+            <div class="flex gap-10 items-start my-auto text-base">
+              <a href="#home" class="font-semibold">Home</a>
+              <a href="#about">About</a>
+              <a href="#features">Features</a>
+              <a href="#contact">Contact</a>
+            </div>
+          </nav>
+          <div
+            class="flex relative z-10 flex-col justify-center items-center self-start px-2 mt-44 ml-3 w-9 h-9 rounded-full border border-solid bg-zinc-300 bg-opacity-20 border-zinc-300 max-md:mt-10 max-md:ml-2.5"
+            role="presentation"
+            aria-hidden="true"
+          >
+            <div class="flex shrink-0 w-full h-2.5 rounded-full bg-zinc-300"></div>
+          </div>
+          <div
+            class="flex relative flex-col mt-0 max-w-full text-center text-white w-[829px]"
+          >
+            <h1
+              class="text-6xl font-semibold leading-[77px] max-md:max-w-full max-md:text-4xl max-md:leading-[53px]"
+            >
+              Creative Home Simpify your Furniture
+            </h1>
+            <p
+              class="self-center mt-8 text-xl tracking-wide leading-8 w-[627px] max-md:max-w-full"
+            >
+              Do i have consent to record this meeting gain locaion, root-and-branch,
+              review, nor game plan who's the goto
+            </p>
+          </div>
+          <button
+            class="relative gap-2.5 px-20 py-4 mt-16 text-xl font-semibold tracking-wide text-center text-white rounded-xl bg-neutral-200 bg-opacity-40 max-md:px-5 max-md:mt-10"
+            aria-label="Shop Now"
+          >
+            Shop Now
+          </button>
+          <div
+            class="flex relative z-10 flex-col justify-center items-center self-start px-2 mt-0 ml-28 w-9 h-9 rounded-full border border-solid bg-zinc-300 bg-opacity-20 border-zinc-300 max-md:ml-2.5"
+            role="presentation"
+            aria-hidden="true"
+          >
+            <div class="flex shrink-0 w-full h-2.5 rounded-full bg-zinc-300"></div>
+          </div>
+          <div
+            class="flex relative flex-col mt-16 w-full max-w-[1240px] max-md:mt-10 max-md:max-w-full"
+          >
+            <div
+              class="flex flex-col justify-center items-center self-end px-2 mr-16 w-9 h-9 rounded-full border border-solid bg-zinc-300 bg-opacity-20 border-zinc-300 max-md:mr-2.5"
+              role="presentation"
+              aria-hidden="true"
+            >
+              <div class="flex shrink-0 w-full h-2.5 rounded-full bg-zinc-300"></div>
+            </div>
+            <section
+              class="flex flex-col justify-center items-center px-16 py-10 mt-24 w-full text-center text-white bg-teal-700 rounded-3xl max-md:px-5 max-md:mt-10 max-md:max-w-full"
+              aria-label="Company statistics"
+            >
+              <div
+                class="flex flex-wrap gap-5 justify-between w-full max-w-[1018px] max-md:max-w-full"
+              >
+                <div class="flex flex-col items-center">
+                  <div class="text-4xl font-semibold leading-tight">7</div>
+                  <div class="mt-1.5 text-xl tracking-wide leading-7">
+                    Year Experience
+                  </div>
+                </div>
+                <div
+                  class="shrink-0 my-auto w-px border border-white border-solid h-[100px]"
+                  role="separator"
+                  aria-hidden="true"
+                ></div>
+                <div class="flex flex-col items-center">
+                  <div class="text-4xl font-semibold leading-tight">2</div>
+                  <div class="mt-1.5 text-xl tracking-wide leading-7">
+                    Opened in the country
+                  </div>
+                </div>
+                <div
+                  class="shrink-0 my-auto w-px border border-white border-solid h-[100px]"
+                  role="separator"
+                  aria-hidden="true"
+                ></div>
+                <div class="flex flex-col items-center">
+                  <div class="text-4xl font-semibold leading-tight">10k+</div>
+                  <div class="mt-1.5 text-xl tracking-wide leading-7">
+                    Furniture sold
+                  </div>
+                </div>
+                <div
+                  class="shrink-0 my-auto w-px border border-white border-solid h-[100px]"
+                  role="separator"
+                  aria-hidden="true"
+                ></div>
+                <div class="flex flex-col items-center">
+                  <div class="text-4xl font-semibold leading-tight">260+</div>
+                  <div class="mt-1.5 text-xl tracking-wide leading-7">
+                    Variant Furniture
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <div class="flex overflow-hidden flex-col mx-auto my-0 w-full max-w-[1440px]">
+        <section class="px-20 py-20 w-full bg-white max-md:px-10 max-md:py-16 max-sm:px-5 max-sm:py-10" aria-labelledby="features-heading">
+          <h2 id="features-heading" class="sr-only">Our Features</h2>
+          <div class="flex gap-5 justify-between items-start max-md:gap-10 max-sm:flex-col">
+            <div class="flex w-6/12 max-sm:p-0 max-sm:w-full">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/131527a4efe92f2a60b7beb875a82d275de96a32ef0f117d1c6e553de8a3e008?apiKey=f400854b370041c18ce96f7be72648db&"
+                alt="Modern living room with gray sofa and wooden coffee table"
+                class="object-cover w-full h-auto rounded-lg shadow-[0_4px_6px_rgba(0,0,0,0.1)]"
+              />
+            </div>
+            <div class="flex flex-col pl-5 w-6/12 max-sm:p-0 max-sm:mt-10 max-sm:w-full">
+              <div class="flex flex-col">
+                <h3 class="mb-3.5 text-4xl font-semibold leading-[52px] text-zinc-800 max-md:text-4xl max-md:leading-10 max-sm:text-3xl max-sm:leading-10">
+                  We Create Your Home More Aesthetic
+                </h3>
+                <p class="mb-10 text-xl leading-9 text-zinc-800 max-md:text-lg max-md:leading-8 max-sm:text-base max-sm:leading-7">
+                  Furniture power is a software as services for multipurpose business management system
+                </p>
+                <div class="flex flex-col pl-12 max-md:pl-5">
+                  <article class="flex flex-col mb-7">
+                    <h4 class="flex items-center mb-2 text-xl font-semibold text-zinc-800 max-sm:text-lg">
+                      <span class="ti ti-check mr-3 text-zinc-800" aria-hidden="true"></span>
+                      <span>Valuation Services</span>
+                    </h4>
+                    <p class="pl-7 text-base leading-7 text-zinc-800 max-sm:pl-6 max-sm:text-sm max-sm:leading-6">
+                      Sometimes features require a short description. This can be detailed description
+                    </p>
+                  </article>
+                  <article class="flex flex-col mb-7">
+                    <h4 class="flex items-center mb-2 text-xl font-semibold text-zinc-800 max-sm:text-lg">
+                      <span class="ti ti-check mr-3 text-zinc-800" aria-hidden="true"></span>
+                      <span>Development of Furniture Models</span>
+                    </h4>
+                    <p class="pl-7 text-base leading-7 text-zinc-800 max-sm:pl-6 max-sm:text-sm max-sm:leading-6">
+                      Sometimes features require a short description. This can be detailed description
+                    </p>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <div>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Saira:wght@400;500;600&display=swap" rel="stylesheet" />
+        <section aria-label="New Store Items" class="px-5 py-10 mx-auto my-0 max-w-[1986px]">
+          <div class="flex gap-5 max-md:flex-col">
+            <div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+              <h2 class="text-4xl font-semibold leading-[52px] max-md:text-3xl max-md:leading-10">
+                New In Store Now
+              </h2>
+              <p class="self-stretch mt-24 tracking-normal leading-7 max-md:mt-5">
+                Get the latest items immediately with promo prices
+              </p>
+              <div class="flex flex-wrap gap-5 mr-0 max-md:flex-col max-md:gap-4">
+                <div class="flex flex-col w-[19%] max-md:w-full">
+                  <div class="flex flex-col items-start self-stretch my-auto w-full text-base text-zinc-800 max-md:mt-10">
+                    <button class="flex gap-2.5 items-center mt-12 font-medium tracking-normal leading-relaxed max-md:mt-6" aria-label="View all items">
+                      <span>Check All</span>
+                      <span class="ti ti-arrow-right text-2xl" aria-hidden="true"></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="flex flex-col ml-5 w-[81%] max-md:mt-10 max-md:w-full">
+                  <div class="grow"></div>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+              <div class="flex overflow-hidden relative flex-wrap gap-5 w-full h-[500px] max-md:flex-col max-md:gap-4" role="region" aria-label="Product Carousel">
+                <div class="relative size-full">
+                  <div class="flex h-full transition-transform duration-[0.3s] ease-[ease-in-out]" data-el="div-1">
+                    <div class="flex-1 max-w-[300px] min-w-[250px] max-md:min-w-full">
+                      <div class="overflow-hidden relative rounded-md aspect-[0.75]">
+                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/6a2f64116d974036c5e9aee587aec42e4909385fd9fc6e2fdd22e8b62d098310?apiKey=f400854b370041c18ce96f7be72648db&" alt="Chair product category" class="object-cover size-full" />
+                        <h3 class="absolute bottom-5 left-2/4 text-3xl font-semibold -translate-x-2/4 text-[white]">Chair</h3>
+                      </div>
+                    </div>
+                    <div class="flex-1 max-w-[300px] min-w-[250px] max-md:min-w-full">
+                      <div class="overflow-hidden relative rounded-md aspect-[0.75]">
+                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/2128499e41e1b2776c6248ec80e6d45e732e9d2820f6092ae5e20d374a8babaf?apiKey=f400854b370041c18ce96f7be72648db&" alt="Bed product category" class="object-cover size-full" />
+                        <h3 class="absolute bottom-5 left-2/4 text-3xl font-semibold -translate-x-2/4 text-[white]">Bed</h3>
+                      </div>
+                    </div>
+                    <div class="flex-1 max-w-[300px] min-w-[250px] max-md:min-w-full">
+                      <div class="overflow-hidden relative rounded-md aspect-[0.75]">
+                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d04124216e70e16ab1500e21f1fd38610071749143ec58e4e552a80bfcf3401?apiKey=f400854b370041c18ce96f7be72648db&" alt="Cupboard product category" class="object-cover size-full" />
+                        <h3 class="absolute bottom-5 left-2/4 text-3xl font-semibold -translate-x-2/4 text-[white]">Cupboard</h3>
+                      </div>
+                    </div>
+                    <div class="flex-1 max-w-[300px] min-w-[250px] max-md:min-w-full">
+                      <div class="overflow-hidden relative rounded-md aspect-[0.75]">
+                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/14001f963af0c5aa6271ba5740f070722f2c9a3a8db0fab1d7720d87952f879a?apiKey=f400854b370041c18ce96f7be72648db&" alt="Lighting product category" class="object-cover size-full" />
+                        <h3 class="absolute bottom-5 left-2/4 text-3xl font-semibold -translate-x-2/4 text-[white]">Lighting</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <button aria-label="Previous slide" class="flex absolute left-2.5 top-2/4 justify-center items-center w-10 h-10 rounded-full -translate-y-2/4 cursor-pointer bg-white bg-opacity-80 border-[none]" data-el="button-1">
+                    <span class="ti ti-chevron-left" aria-hidden="true"></span>
+                  </button>
+                  <button aria-label="Next slide" class="flex absolute right-2.5 top-2/4 justify-center items-center w-10 h-10 rounded-full -translate-y-2/4 cursor-pointer bg-white bg-opacity-80 border-[none]" data-el="button-2">
+                    <span class="ti ti-chevron-right" aria-hidden="true"></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div>
+        <div class="flex gap-5 max-md:flex-col">
+          <div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+            <h2 class="self-stretch text-4xl font-semibold leading-tight max-md:max-w-full">
+              What people are saying about us
+            </h2>
+            <div class="flex flex-col items-start pl-2.5 w-full max-md:max-w-full">
+              <div class="flex gap-5 mt-9 leading-none">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/484fc42aa62edd59304530c844b2c1e0d5ec3eb15e23d5369056cd8b925f13ea?placeholderIfAbsent=true&apiKey=f400854b370041c18ce96f7be72648db"
+                  alt="Josh Smith, Manager of The New York Times"
+                  class="object-contain shrink-0 w-20 rounded-full aspect-square"
+                />
+                <div class="flex flex-col my-auto">
+                  <div class="text-xl font-semibold">Josh Smith</div>
+                  <div class="mt-3 text-sm">Manager of The New York Times</div>
+                </div>
+              </div>
+              <blockquote class="mt-7 text-xl leading-9 max-md:max-w-full">
+                "They are have a perfect touch for make something so professional
+                ,interest and useful for a lot of people ."
+              </blockquote>
+            </div>
+            <div class="flex flex-col grow text-zinc-800 max-md:mt-10 max-md:max-w-full"></div>
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/db041b74a327a3a41ae229453a775973ec14e734ed7984168b90f99fa60971eb?placeholderIfAbsent=true&apiKey=f400854b370041c18ce96f7be72648db"
+              alt=""
+              class="object-contain mt-6 w-full aspect-[2.06] max-w-[131px] object-[bottom_right]"
+            />
+          </div>
+          <div class="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/ac19dd6ebbd60c7d4273151e8cd93171be2aa8c423cfc0da83b7342e0b36b24d?placeholderIfAbsent=true&apiKey=f400854b370041c18ce96f7be72648db"
+              alt="Testimonial supporting image"
+              class="object-contain mt-1 w-full rounded-md aspect-[1.65] max-md:mt-10 max-md:max-w-full"
+            />
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col leading-none">
+  <div
+    class="flex relative flex-col justify-center items-end px-20 py-32 w-full min-h-[490px] max-md:px-5 max-md:pb-24 max-md:max-w-full"
+  >
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/f0562031668691204e117b08317f61d5bb185830622f13bc7d41e81348811f65?placeholderIfAbsent=true&apiKey=f400854b370041c18ce96f7be72648db"
+      alt=""
+      class="object-cover absolute inset-0 size-full"
+    />
+    <div
+      class="flex relative flex-col items-start -mb-7 max-w-full w-[558px] max-md:mb-2.5"
+    >
+      <div class="text-4xl font-semibold text-white leading-[54px]">
+        <p>Get more discount</p>
+        <p>Off your order</p>
+      </div>
+      <div class="mt-5 text-xl text-white">Join our mailing list</div>
+      <form class="flex flex-wrap gap-6 self-stretch mt-10 max-md:max-w-full">
+        <label for="emailInput" class="sr-only">Your email address</label>
+        <input
+          type="email"
+          id="emailInput"
+          placeholder="Your email address"
+          class="grow px-6 py-6 text-base bg-white rounded-lg text-zinc-800 w-fit max-md:px-5"
+          required
+          aria-required="true"
+        />
+        <button
+          type="submit"
+          class="px-7 py-5 text-xl font-semibold text-white rounded-lg bg-zinc-800 max-md:px-5"
+        >
+          Shop Now
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col text-white" role="contentinfo" aria-label="Footer">
+    <div class="flex flex-col items-center pt-14 w-full bg-zinc-800 max-md:max-w-full">
+      <div class="flex flex-wrap gap-5 justify-between w-full whitespace-nowrap max-w-[1140px] max-md:max-w-full">
+        <div class="my-auto text-2xl font-bold tracking-normal">FurniShop</div>
+        <div class="flex gap-4 text-sm text-center">
+          <a href="#" class="px-5 w-12 h-12 bg-indigo-500 bg-blend-normal rounded-[2000px] flex items-center justify-center" aria-label="Instagram">
+            instagram
+          </a>
+          <a href="#" class="px-5 w-12 h-12 bg-indigo-500 bg-blend-normal rounded-[2000px] flex items-center justify-center" aria-label="Facebook">
+            facebook
+          </a>
+          <a href="#" class="px-4 w-12 h-12 bg-indigo-500 bg-blend-normal rounded-[2000px] flex items-center justify-center" aria-label="Twitter">
+            twitter
+          </a>
+          <a href="#" class="px-4 w-12 h-12 bg-indigo-500 bg-blend-normal rounded-[2000px] flex items-center justify-center" aria-label="Github">
+            github
+          </a>
+          <a href="#" class="px-5 w-12 h-12 bg-indigo-500 bg-blend-normal rounded-[2000px] flex items-center justify-center" aria-label="Instagram">
+            instagram
+          </a>
+        </div>
+      </div>
+      <div class="flex shrink-0 mt-12 max-w-full h-px bg-slate-200 w-[1140px] max-md:mt-10" role="separator"></div>
+      <nav class="flex flex-wrap gap-5 justify-between mt-16 w-full max-w-[1140px] max-md:mt-10 max-md:max-w-full">
+        <div class="flex flex-col">
+          <h2 class="text-lg max-md:mr-2.5">Our Products</h2>
+          <ul class="mt-6 text-sm leading-5">
+            <li><a href="#" class="hover:underline focus:outline-none focus:ring-2">The Support Suite</a></li>
+            <li class="mt-6"><a href="#" class="hover:underline focus:outline-none focus:ring-2">The Sales Suite</a></li>
+            <li class="mt-6"><a href="#" class="hover:underline focus:outline-none focus:ring-2">Support</a></li>
+            <li class="mt-6"><a href="#" class="hover:underline focus:outline-none focus:ring-2">Guide</a></li>
+          </ul>
+        </div>
+        <div class="flex flex-col">
+          <h2 class="self-start text-lg font-medium">Top Features</h2>
+          <ul class="mt-6 text-sm leading-5">
+            <li><a href="#" class="hover:underline focus:outline-none focus:ring-2">Ticketing System</a></li>
+            <li class="mt-6"><a href="#" class="hover:underline focus:outline-none focus:ring-2">Knowledge Base</a></li>
+            <li class="mt-6"><a href="#" class="hover:underline focus:outline-none focus:ring-2">Community Forums</a></li>
+            <li class="mt-6"><a href="#" class="hover:underline focus:outline-none focus:ring-2">Help Desk Software</a></li>
+          </ul>
+        </div>
+        <div class="flex flex-col">
+          <h2 class="self-start text-lg">Resources</h2>
+          <ul class="mt-6 text-sm leading-5">
+            <li><a href="#" class="hover:underline focus:outline-none focus:ring-2">Product Support</a></li>
+            <li class="mt-6"><a href="#" class="hover:underline focus:outline-none focus:ring-2">Request Demo</a></li>
+            <li class="mt-6"><a href="#" class="hover:underline focus:outline-none focus:ring-2">Library</a></li>
+            <li class="mt-6"><a href="#" class="hover:underline focus:outline-none focus:ring-2">Peoplepower Blog</a></li>
+          </ul>
+        </div>
+        <div class="flex flex-col">
+          <h2 class="text-lg">Company</h2>
+          <ul class="self-start mt-6 text-sm leading-5">
+            <li><a href="#" class="hover:underline focus:outline-none focus:ring-2">About Us</a></li>
+            <li class="mt-6"><a href="#" class="hover:underline focus:outline-none focus:ring-2">Press</a></li>
+            <li class="mt-6"><a href="#" class="hover:underline focus:outline-none focus:ring-2">Investors</a></li>
+            <li class="mt-6"><a href="#" class="hover:underline focus:outline-none focus:ring-2">Events</a></li>
+          </ul>
+        </div>
+        <div class="flex flex-col">
+          <h2 class="text-lg font-medium">Favourite Things</h2>
+          <ul class="mt-6 text-sm leading-5">
+            <li><a href="#" class="hover:underline focus:outline-none focus:ring-2">For Enterprise</a></li>
+            <li class="mt-6"><a href="#" class="hover:underline focus:outline-none focus:ring-2">For Startups</a></li>
+            <li class="mt-6"><a href="#" class="hover:underline focus:outline-none focus:ring-2">For Benchmark</a></li>
+            <li class="mt-6"><a href="#" class="hover:underline focus:outline-none focus:ring-2">For Small Business</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="self-stretch px-16 py-5 mt-12 w-full text-sm leading-none text-center bg-zinc-800 max-md:px-5 max-md:mt-10 max-md:max-w-full">
+        © NameBrand 2022 - All Rights Reserved
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+      <script>
+        (() => {
+          const state = {
+            currentSlide: 0,
+            slides: ["Chair", "Bed", "Cupboard", "Lighting"],
+            nextSlide() {
+              state.currentSlide = (state.currentSlide + 1) % state.slides.length;
+              update();
+            },
+            prevSlide() {
+              state.currentSlide = state.currentSlide === 0 ? state.slides.length - 1 : state.currentSlide - 1;
+              update();
+            },
+          };
+      
+          let nodesToDestroy = [];
+          let pendingUpdate = false;
+      
+          function destroyAnyNodes() {
+            nodesToDestroy.forEach((el) => el.remove());
+            nodesToDestroy = [];
+          }
+      
+          function update() {
+            if (pendingUpdate === true) return;
+            pendingUpdate = true;
+      
+            document.querySelectorAll("[data-el='div-1']").forEach((el) => {
+              Object.assign(el.style, {
+                transform: `translateX(-${state.currentSlide * 100}%)`,
+              });
+            });
+      
+            document.querySelectorAll("[data-el='button-1']").forEach((el) => {
+              el.removeEventListener("click", onButton1Click);
+              el.addEventListener("click", onButton1Click);
+            });
+      
+            document.querySelectorAll("[data-el='button-2']").forEach((el) => {
+              el.removeEventListener("click", onButton2Click);
+              el.addEventListener("click", onButton2Click);
+            });
+      
+            destroyAnyNodes();
+            pendingUpdate = false;
+          }
+      
+          function onButton1Click() {
+            state.prevSlide();
+          }
+      
+          function onButton2Click() {
+            state.nextSlide();
+          }
+      
+          update();
+      
+          document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') {
+              state.prevSlide();
+            } else if (e.key === 'ArrowRight') {
+              state.nextSlide();
+            }
+          });
+        })();
+      </script>
+
+</body>
+</html>
